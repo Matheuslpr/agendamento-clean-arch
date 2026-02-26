@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 
 @Component
-public class AgendamentoUpdadeRequestMapper {
+public class AgendamentoUpdateRequestMapper {
 
     public AgendamentoUpdateRequest toDto(Agendamento agendamento){
         return new AgendamentoUpdateRequest(
