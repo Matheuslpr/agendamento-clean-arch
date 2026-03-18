@@ -10,7 +10,7 @@ API REST para gerenciamento de agendamentos, construída com Java 17 e Spring Bo
 *   [Estrutura do projeto](#estrutura-do-projeto)
 *   [Como rodar localmente (passo a passo)](#como-rodar-localmente-passo-a-passo)
 *   [Variáveis de ambiente e configuração](#variáveis-de-ambiente-e-configuração)
-*   [Endpoints principais](#endpoints-principais-com-exemplos-requestresponse)
+*   [Endpoints ](#endpoints-principais-com-exemplos-requestresponse)
 *   [Modelagem e decisões de design](#modelagem-e-decisões-de-design)
 *   [Como avaliar o projeto](#como-avaliar-o-projeto)
   
