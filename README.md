@@ -9,8 +9,8 @@ API REST para gerenciamento de agendamentos, construída com Java 17 e Spring Bo
 *   [Recursos implementados](#recursos-implementados)
 *   [Estrutura do projeto](#estrutura-do-projeto)
 *   [Como rodar localmente (passo a passo)](#como-rodar-localmente-passo-a-passo)
-*   [Variáveis de ambiente e configuração](#variáveis-de-ambiente-e-configuração)
-*   [Endpoints ](#endpoints-principais-com-exemplos-requestresponse)
+*   [Variáveis de ambiente e configuração](#Configurar-variáveis-de-ambiente)
+*   [Endpoints ](#endpoints)
 *   [Modelagem e decisões de design](#modelagem-e-decisões-de-design)
 *   [Como avaliar o projeto](#como-avaliar-o-projeto)
   
@@ -183,7 +183,7 @@ POST /agendamentos
 
 Para uma avaliação rápida do projeto, sugere-se:
 
-1.  **Código Limpo e Legível**: Examine classes nas camadas `Core/Usecase` e `Infrastructure/Presentation` (ex: `CriarAgendamentoUseCase.java` e `AgendamentoController.java`) para observar a separação de responsabilidades e a clareza do código.
+1.  **Código Limpo e Legível**: Examine classes nas camadas `Core/Usecase` e `Infrastructure/Presentation` para observar a separação de responsabilidades e a clareza do código.
 2.  **Clean Architecture**: Verifique a organização dos pacotes e a comunicação entre as camadas `Core` e `Infrastructure` para entender a aplicação dos princípios da Clean Architecture.
 3.  **Mapeamento e DTOs**: Observe as classes em `Infrastructure/DTO` e `Infrastructure/Mapper` para entender como os dados são transferidos e mapeados.
 4.  **Banco de Dados**: Consulte `application.properties` e os scripts de migração em `src/main/resources/db/migration` para compreender a estratégia de persistência.
